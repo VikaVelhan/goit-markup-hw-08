@@ -1,0 +1,36 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  &-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color);
+  }
+
+  &-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 15px;
+    outline: 2px solid #212121;
+    outline-offset: -2px;
+    border-radius: 2px;
+    margin-right: 4px;
+
+    transition: background-color var(--animation), outline var(--animation);
+  }
+
+  .form-accept:checked + &-icon {
+    background-color: var(--accent-color);
+    outline: 2px solid var(--accent-color);
+    outline-offset: -2px;
+  }
+  &-contract {
+    color: var(--accent-color);
+  }
+}

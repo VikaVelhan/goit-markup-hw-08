@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--darck-background-color);
+  padding: 60px 0px;
+
+  & .logo {
+    margin-bottom: 20px;
+  }
+  & .conteiner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  &-figuration {
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+  }
+}

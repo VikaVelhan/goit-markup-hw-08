@@ -1,0 +1,32 @@
+.contact {
+  display: flex;
+  margin-left: auto;
+
+  & .item:not(:first-child) {
+    margin-left: 50px;
+  }
+
+  &__link {
+    color: var(--text-color);
+    display: flex;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    align-items: center;
+    transition: color var(--animation);
+  }
+  &__link:hover,
+  &__link:focus {
+    color: var(--accent-color);
+  }
+
+  &__icon--mail,
+  &__icon--phon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
+}

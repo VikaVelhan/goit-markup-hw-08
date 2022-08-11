@@ -1,0 +1,22 @@
+.close {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+
+  fill: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: fill var(--animation);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}

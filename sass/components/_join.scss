@@ -1,0 +1,22 @@
+.join {
+  /*margin-right: 93px;*/
+
+  &-social-link {
+    display: flex;
+    justify-content: center;
+  }
+  &-title {
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--text-white-color);
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  &-social-link .item {
+    margin-right: 10px;
+    margin-bottom: 60px;
+  }
+  &-social-link .item:last-child {
+    margin-right: 0px;
+  }
+}

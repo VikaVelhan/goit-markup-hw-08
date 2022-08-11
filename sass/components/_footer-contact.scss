@@ -1,0 +1,42 @@
+.footer-contact {
+  /*text-align: center;*/
+  & .link {
+    color: var(--footer-text-accent);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+
+  & .address {
+    color: var(--text-white-color);
+
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  & .link-contact {
+    transition: color var(--animation);
+  }
+
+  & .link-contact:hover,
+  & .link-contact:focus {
+    color: var(--accent-color);
+  }
+  & .item:not(:last-child) {
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 9px;
+    }
+  }
+  &-box {
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+      margin-right: 70px;
+    }
+  }
+}
