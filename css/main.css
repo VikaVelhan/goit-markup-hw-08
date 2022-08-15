@@ -286,6 +286,18 @@ img {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
+@media screen and (min-width: 480px) {
+  .button-footer {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .button-footer {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 .button-footer-icon {
   position: absolute;
   top: 13px;
@@ -456,8 +468,10 @@ img {
   }
 }
 
-.join {
-  /*margin-right: 93px;*/
+@media screen and (min-width: 1200px) {
+  .join {
+    margin-right: 93px;
+  }
 }
 .join-social-link {
   display: -webkit-box;
@@ -564,6 +578,11 @@ img {
   fill: var(--accent-color);
 }
 
+.form {
+  /*&-footer {
+
+  }*/
+}
 .form-label-title {
   display: block;
   font-size: 12px;
@@ -602,16 +621,23 @@ img {
   fill: var(--accent-color);
   cursor: pointer;
 }
-.form-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-right: 0;
-}
 .form-footer-fild {
   margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .form-footer-fild {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 .form-footer-title-subscribe {
   font-weight: 700;
@@ -621,14 +647,13 @@ img {
   margin-bottom: 20px;
 }
 .form-footer-subscribe {
-  width: 450px;
+  width: 100%;
   height: 50px;
   background-color: var(--darck-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-right: 12px;
   padding-right: 5px;
   padding-left: 16px;
   color: var(--text-white-color);
@@ -636,9 +661,15 @@ img {
   transition: border var(--animation);
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .form-footer-subscribe {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .form-footer-subscribe {
     width: 358px;
+    margin-right: 12px;
   }
 }
 .form-footer-subscribe:focus {
@@ -1155,6 +1186,9 @@ textarea::placeholder {
 }
 .footer-figuration {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .footer-figuration {
@@ -1166,6 +1200,11 @@ textarea::placeholder {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-figuration {
+    text-align: left;
   }
 }
 

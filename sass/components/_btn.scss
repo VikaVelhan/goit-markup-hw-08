@@ -71,6 +71,15 @@
     padding: 10px 62px 10px 29px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+
+    @media screen and (min-width: 480px) {
+      width: 200px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
   &-footer-icon {
     position: absolute;
