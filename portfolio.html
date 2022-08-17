@@ -41,6 +41,12 @@
               </li>
             </ul>
           </nav>
+          <button class="mobile-menu-button" type="button" data-menu-button>
+            <svg class="mobile-menu-icon" width="24px" height="16px">
+              <use class="mobile-menu-burger" href="./images/icons.svg#icon-menu_burger"></use>
+              <use class="mobile-menu-close" href="./images/icons.svg#icon-close_24px"></use>
+            </svg>
+          </button>
           <ul class="contact list">
             <li class="item contact__item">
               <a href="mailto:info@devstudio.com" class="link contact__link">
@@ -365,5 +371,38 @@
         </form>
       </div>
     </footer>
+    <!--mobile-menu-->
+    <div class="mobile-menu" data-menu>
+      <ul class="mobile-menu-nav list">
+        <li class="mobile-menu-nav-item"><a class="link" href="./index.html">Студія</a></li>
+        <li class="mobile-menu-nav-item">
+          <a class="link mobile-menu-nav-item-current" href="./portfolio.html">Портфоліо</a>
+        </li>
+        <li class="mobile-menu-nav-item"><a class="link" href="">Контакти</a></li>
+      </ul>
+      <ul class="mobile-menu-contacts list">
+        <li class="mobile-menu-contacts-item">
+          <a class="link tel" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+        <li class="mobile-menu-contacts-item">
+          <a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+      <ul class="mobile-menu-socials list">
+        <li class="mobile-menu-socials-item">
+          <a class="mobile-menu-socials-link link" href="">Instagram</a>
+        </li>
+        <li class="mobile-menu-socials-item">
+          <a class="mobile-menu-socials-link link" href="">Twitter</a>
+        </li>
+        <li class="mobile-menu-socials-item">
+          <a class="mobile-menu-socials-link link" href="">Facebook</a>
+        </li>
+        <li class="mobile-menu-socials-item">
+          <a class="mobile-menu-socials-link link" href="">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

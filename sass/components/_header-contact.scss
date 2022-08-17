@@ -1,5 +1,6 @@
 .contact {
   display: flex;
+  display: none;
   margin-left: auto;
 
   & .item:not(:first-child) {
