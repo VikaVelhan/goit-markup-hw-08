@@ -496,9 +496,6 @@ img {
   fill: var(--text-white-color);
 }
 
-.footer-contact {
-  /*text-align: center;*/
-}
 .footer-contact .link {
   color: var(--footer-text-accent);
   font-style: normal;
@@ -653,11 +650,6 @@ img {
   fill: var(--accent-color);
 }
 
-.form {
-  /*&-footer {
-
-  }*/
-}
 .form-label-title {
   display: block;
   font-size: 12px;
