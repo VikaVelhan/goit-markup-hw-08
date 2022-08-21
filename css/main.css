@@ -901,12 +901,6 @@ textarea::placeholder {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
-  /*&-item:nth-child(3n) {
-    margin-right: 0;
-  }
-  &-item:nth-last-child(-n + 3) {
-    margin-bottom: 0;
-  }*/
 }
 .projekt .portfolio-title {
   padding: 0px;
@@ -924,9 +918,6 @@ textarea::placeholder {
 }
 .projekt-item {
   display: block;
-  /*margin-right: 30px;
-  margin-bottom: 30px;
-  border: 0px;*/
 }
 
 .card {
