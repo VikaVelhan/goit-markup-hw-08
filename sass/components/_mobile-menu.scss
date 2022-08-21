@@ -28,6 +28,10 @@
     opacity: 1;
   }
 }
+.mobile-menu-close:hover {
+  fill: var(--accent-color);
+  cursor: pointer;
+}
 .mobile-menu {
   display: flex;
   transform: translateX(100%);
