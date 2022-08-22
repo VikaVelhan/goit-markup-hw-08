@@ -562,6 +562,7 @@ img {
 }
 
 .backdrop {
+  z-index: 1000;
   position: fixed;
   top: 0;
   left: 0;
@@ -573,7 +574,6 @@ img {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-  z-index: 1000;
 }
 .backdrop.is-hidden {
   opacity: 0;
