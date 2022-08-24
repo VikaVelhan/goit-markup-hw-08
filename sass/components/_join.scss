@@ -1,6 +1,10 @@
 .join {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
   @media screen and (min-width: 1200px) {
-    margin-right: 93px;
+    margin-right: 70px;
   }
 
   &-social-link {
@@ -16,7 +20,6 @@
   }
   &-social-link .item {
     margin-right: 10px;
-    margin-bottom: 60px;
   }
   &-social-link .item:last-child {
     margin-right: 0px;

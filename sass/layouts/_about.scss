@@ -3,12 +3,11 @@
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
   }
   &__item {
-    margin-right: 30px;
-  }
-  &__item:last-child {
-    margin-right: 0px;
+    flex-basis: calc((100% - 60px) / 3);
   }
 
   &__thumb {
